@@ -18,3 +18,18 @@ Route::get('/', function () {
         'nomes'=> $nomes
     ]);
 });
+Route::get('content', function () {
+    return view('content');});
+
+Route::get('/services', function () {
+    return view('services');
+});
+
+Route::get('products', function () {
+    $search = request('search');
+    return view('products', ['search' => $search]);
+});
+
+Route::get('product/{id}', function ($id) {
+    return view('product', ['id' => $id]);
+});
