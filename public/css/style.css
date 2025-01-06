@@ -8,3 +8,22 @@ body{
     line-height: 1.5;
     color: #333;
 }
+
+/*logo*/
+#navbar img{
+    width: 50px;
+}
+
+/*img navbar*/
+.navbar-img{
+    height:450px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-position-y: -300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+            

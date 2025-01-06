@@ -14,10 +14,11 @@
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/script.js"></script>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="collapse navbar-colllapse" id="navbar">
+            <div class="collapse navbar-collapse" id="navbar">
                 <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="logo barbearia"></a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -27,7 +28,7 @@
                         <a class="nav-link" href="/products">Produtos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/services">Serviços</a>
+                        <a class="nav-link" href="/barbeshopServices/create">Atendimento</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/services">Entrar</a>
@@ -42,6 +43,9 @@
     <footer>
         <p>Barbeshop &copy; 2025</p>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>

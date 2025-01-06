@@ -5,7 +5,7 @@
 @section(  'content')
 
 <h1>Barbearia</h1>
-<img src="/img/barbearia.jpg" alt="bancada de barbearia">
+<img class="navbar-img" src="/img/barbearia.jpg" alt="bancada de barbearia">
 @if (10>5)
 <p>A condiçao é true</p>
 @endif
