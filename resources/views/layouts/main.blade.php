@@ -25,16 +25,16 @@
                         <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/products">Produtos</a>
+                        <a class="nav-link" href="/barbershopServices/create">Atendimento</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/barbeshopServices/create">Atendimento</a>
+                        <a class="nav-link" href="/barbershopProducts/products">Produtos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/services">Entrar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/services">Criar uma conta</a>
+                        <a class="nav-link" href="/services">Criar conta</a>
                     </li>
             </div>
         </nav>
